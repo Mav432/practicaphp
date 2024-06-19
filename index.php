@@ -1,7 +1,7 @@
 <?php
 echo "My firts PHP script!";
 echo "<br>";
-echo "Mis datos";
+echo "Mis datos: <br>";
 $nombre="Marcial";
 $edad=18;
 $estatura=1.60;
@@ -16,11 +16,14 @@ $r=$x - $y;
 $m=$x * $y;
 $d=$x / $y;
 $e=$x ** $y;
+$p=$x % $y;
+$e_redondeado = round($e, 2);
 echo "La suma es $x + $y= $z<br>";
 echo "La resta es $x - $y= $r<br>";
 echo "La multiplicacion es $x * $y= $m<br>";
 echo "La division es $x / $y = $d <br>";
-echo "La exponenciación es $x ** $y=$e<br>";
+echo "La exponenciación es $x ** $y=$e_redondeado<br>";
+echo "La exponenciación es $x % $y=$p<br>";
 ?>
 
 <!DOCTYPE html>
