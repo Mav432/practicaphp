@@ -17,12 +17,12 @@ $m=$x * $y;
 $d=$x / $y;
 $e=$x ** $y;
 $p=$x % $y;
-$e_redondeado = round($e, 2);
+$e_redondeado = round($e);
 echo "La suma es $x + $y= $z<br>";
 echo "La resta es $x - $y= $r<br>";
 echo "La multiplicacion es $x * $y= $m<br>";
 echo "La division es $x / $y = $d <br>";
-echo "La exponenciación es $x ** $y=$e_redondeado<br>";
+echo "La exponenciación es $x ** $y=$e_redondeado<br>"; // muy grande para redondear
 echo "La exponenciación es $x % $y=$p<br>";
 ?>
 
